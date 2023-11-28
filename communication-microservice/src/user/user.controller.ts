@@ -10,4 +10,8 @@ export class UserController {
   async createUser(createUserdto: CreateUserDTO) {
     await this.userService.createUser(createUserdto);
   }
+  @EventPattern('hello')
+  async getHello(data: { text: string }) {
+    console.log('from communication microservice', data);
+  }
 }

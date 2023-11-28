@@ -1,0 +1,8 @@
+sample-backend/dist
+sample-backend/node_modules
+
+communication-microservice/dist
+communication-microservice/node_modules
+
+analytic-microservice/dist
+analytic-microservice/node_modules
